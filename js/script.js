@@ -1,4 +1,4 @@
-const btn = document.getElementById("btnSalvarFav");
+const btn = document.getElementById("btnSalvarFavorito");
 
 if (btn) {
     btn.onclick = () => {
@@ -30,4 +30,5 @@ if (formContato) {
             msg.style.color = "green";
         }
         formContato.reset();
+    };
 }

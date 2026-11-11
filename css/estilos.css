@@ -13,7 +13,7 @@ header {
     text-align: center;
 }
 
-nav.main-nav {
+nav.menu-principal {
     background-color: #2a5298;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ nav.main-nav {
     flex-wrap: wrap;
 }
 
-nav.main-nav a {
+nav.menu-principal a {
     color: white;
     text-decoration: none;
     padding: 8px 14px;
@@ -30,7 +30,7 @@ nav.main-nav a {
     transition: background-color 0.3s;
 }
 
-nav.main-nav a:hover {
+nav.menu-principal a:hover {
     background-color: #1e3c72;
 }
 
@@ -69,25 +69,7 @@ nav.main-nav a:hover {
     flex-grow: 1;
 }
 
-.table-custom {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background-color: white;
-}
-
-.table-custom th, .table-custom td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: center;
-}
-
-.table-custom th {
-    background-color: #1e3c72;
-    color: white;
-}
-
-.form-control-custom {
+.campo-customizado {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -95,17 +77,17 @@ nav.main-nav a:hover {
     box-sizing: border-box;
 }
 
-.form-control-custom:focus {
+.campo-customizado:focus {
     border-color: #1e3c72;
     outline: none;
     box-shadow: 0 0 5px rgba(30, 60, 114, 0.5);
 }
 
-.form-control-custom:hover {
+.campo-customizado:hover {
     border-color: #2a5298;
 }
 
-.form-control-custom:invalid {
+.campo-customizado:invalid {
     border-color: #dc3545;
 }
 
@@ -118,6 +100,42 @@ footer {
 }
 
 #texto-comparativo {
-
     font-size: 18px;
+}
+
+
+.favoritos {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.btn-espacado {
+    background-color: #1e3c72;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.btn-espacado:hover {
+    background-color: #2a5298;
+}
+
+.mensagem-favorito {
+    margin-top: 20px;
+}
+
+.favorito-mensagem-titulo {
+    color: #1e3c72;
+}
+
+.form-contato {
+    max-width: 600px;
+}
+
+.mensagemContatoSucesso {
+    margin-top: 15px;
+    font-weight: bold;
 }

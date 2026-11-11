@@ -11,7 +11,7 @@
     <header>
         <h1>Portal Clima Brasil</h1>
     </header>
-    <nav class="main-nav">
+    <nav class="menu-principal">
         <a href="index.html">Início</a>
         <a href="principais_capitais.html">Principais Capitais</a>
         <a href="sul-do-brasil.html">Sul do Brasil</a>
@@ -27,9 +27,9 @@
         <h2>Guardar Cidade Favorita</h2>
         <p>Selecione a sua cidade para gravar a preferência no navegador.</p>
 
-        <div class="form-group" style="max-width: 400px; margin-top: 20px;">
+        <div class="favoritos">
             <label for="selectCidadeFav">Selecione uma Cidade:</label>
-            <select id="selectCidadeFav" class="form-control-custom">
+            <select id="selectCidadeFav" class="campo-customizado">
                 <option value="">-- Escolha --</option>
                 <option value="Curitiba">Curitiba</option>
                 <option value="São Paulo">São Paulo</option>
@@ -38,10 +38,10 @@
                 <option value="Manaus">Manaus</option>
             </select>
         </div>
-        <button id="btnSalvarFav" class="btn-custom" style="margin-top: 10px;">Guardar Preferência</button>
+        <button id="btnSalvarFavorito" class="btn-espacado">Guardar Preferência</button>
 
-        <div style="margin-top: 20px;">
-            <h3 id="msgFavorito" style="color: #1e3c72;">Nenhuma cidade favoritada ainda.</h3>
+        <div class="mensagem-favorito">
+            <h3 id="msgFavorito" class="favorito-mensagem-titulo">Nenhuma cidade favoritada ainda.</h3>
         </div>
     </div>
     <footer>
