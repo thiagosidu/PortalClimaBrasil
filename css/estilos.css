@@ -139,3 +139,13 @@ footer {
     margin-top: 15px;
     font-weight: bold;
 }
+
+#botao-contato {
+    background-color: #1e3c72;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 15px;
+}
